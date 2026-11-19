@@ -233,7 +233,7 @@ In the following illustration we have scrolled the screen up[^3] a little so tha
 
 We then determine which grid tiles overlap the viewable area.
 In the above examples that would be the tiles with coordinates  `(0,0)`, `(1,0)`, `(0,1)`, and `(1,1)`.
-Once we have that information, we can then then look up those coordinates in the spatial map data structure, which would retrieve 4 lists:
+Once we have that information, we can then look up those coordinates in the spatial map data structure, which would retrieve 4 lists:
 
 ```python
 [

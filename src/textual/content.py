@@ -935,7 +935,7 @@ class Content(Visual):
         Self is the separator (which maybe empty) placed between each string or Content.
 
         Args:
-            lines: An iterable of other Content instances or or strings.
+            lines: An iterable of other Content instances or strings.
 
         Returns:
             A single Content instance, containing all of the lines.
@@ -1721,7 +1721,7 @@ class Content(Visual):
 class _FormattedLine:
     """A line of content with additional formatting information.
 
-    This class is used internally within Content, and you are unlikely to need it an an app.
+    This class is used internally within Content, and you are unlikely to need it in an app.
     """
 
     def __init__(

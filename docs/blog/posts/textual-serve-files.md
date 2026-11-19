@@ -27,7 +27,7 @@ For example, you could install [`harlequin`](https://github.com/tconbeer/harlequ
 
 While you're interacting with the Textual app using your web browser, it's not *running* in your browser. It's running on the machine you've installed it on, similar to typical server driven web app. This creates some interesting challenges for us if we want to provide an equal experience across browser and terminal.
 
-A Textual app running in the browser is inherently more accessible to non-technical users, and we don't want to limit access to important functionality for those users. We also don't want Textual app developers to have to repeatedly check "is the the end-user using a browser or a terminal?".
+A Textual app running in the browser is inherently more accessible to non-technical users, and we don't want to limit access to important functionality for those users. We also don't want Textual app developers to have to repeatedly check "is the end-user using a browser or a terminal?".
 
 To solve this, we've created APIs which allow developers to add web links to their apps and deliver files to end-users in a platform agnostic way. The goal of these APIs is to allow developers to write applications knowing that they'll provide a sensible user experience in both terminals and web browsers without any extra effort.
 

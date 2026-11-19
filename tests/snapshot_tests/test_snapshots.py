@@ -4423,7 +4423,7 @@ def test_markdown_append(snap_compare):
 
 
 def test_append_with_initial_document(snap_compare):
-    """Test appending to an an existing document works.
+    """Test appending to an existing document works.
 
     You should a header, followed by Hello World on the next line.
     "Hello" will be in bold, and "World" in italics.
@@ -4792,7 +4792,7 @@ def test_mount_compose(snap_compare) -> None:
 def test_text_area_paste(snap_compare) -> None:
     """Regression test for https://github.com/Textualize/textual/issues/4852
 
-    You should see a TextArea where the scrollbar and cursor at at the bottom
+    You should see a TextArea where the scrollbar and cursor at the bottom
     of the document.
     """
 
